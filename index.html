@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="Описание сайта" />
+
+    <title>Portfolio Creator</title>
+
+    <!-- Подключение стилей -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+
+    <!-- Подключение фавиконки (по желанию) -->
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- Хедер -->
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <img src="img/logo.png" class="logo" />
+          <ul class="nav_menu">
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#blog">Blog</a>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Главный контент -->
+    <main>
+      <section id="home" class="home">
+        <div class="container">
+        <div class="home_hero">
+        <div class="home_left">
+          <h1 class="title title--orange">I design products</h1>
+          <h1 class="title title--black">that delight and inspire people.</h1>
+          <p class="subtitle">
+            Hi! I’m Jake, a product designer based in Berlin. I create
+            user-friendly interfaces for fast-growing startups.
+          </p>
+          <div class="home_btn">
+          <button class="home_btn_call">
+            <div class="title home_btn_title_white">Book a Call</div>
+          </button>
+          <button class="home_btn_cv">
+            <div class="title home_btn_title_black">Download CV</div>
+          </button>
+          </div>
+          </div>
+          <div class="home_right">
+          <img src="img/hero_img.png" class="hero_img" />
+          </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Добавляй нужные секции ниже -->
+      <section class="brand">
+      <div class="container">
+      <p class="subtitle brand--title">Trusted by</p>
+      <div class="logo_grid">
+      <img src="img/logogrid_1.png" class="logo_brand" />
+      <img src="img/logogrid_2.png" class="logo_brand" />
+      <img src="img/logogrid_3.png" class="logo_brand" />
+      <img src="img/logogrid_4.png" class="logo_brand" />
+      </div>
+      </div>
+      </section>
+
+      <section class="services" id="services">
+      <div class="container">
+        <h1 class="title title--orange">Services</h1>
+        <h2 class="title title--services">
+          Design that solves problems, one product at a time.
+        </h2>
+
+        <div class="cards">
+          <div class="card">
+            <img src="img/vector_3.png" class="img_card" />
+            <h1>What I can do for you</h1>
+            <p>
+              Faster, better products that your users love. Here's all the
+              services I provide:
+            </p>
+            <ul>
+              <li>Design Strategy</li>
+              <li>Web and Mobile App Design</li>
+              <li>Front-end Development</li>
+            </ul>
+          </div>
+          <div class="card">
+            <img src="img/vector_2.png" class="img_card" />
+            <h1>Applications I'm fluent in</h1>
+            <p>
+              Every designer needs the right tools to do the perfect job.
+              Thankfully, I'm multilingual.
+            </p>
+            <ul>
+              <li>Sketch</li>
+              <li>Webflow</li>
+              <li>Figma</li>
+            </ul>
+            <div class="card">
+            <img src="img/vector_1.png" class="img_card" />
+            <h1>What you can expect</h1>
+            <p>
+              I design products that are more than pretty. I make them shippable and usable.
+            </p>
+            <ul>
+              <li>Clean and functional</li>
+              <li>Device and user friendly</li>
+              <li>Efficient and maintainable</li>
+            </ul>
+          </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects" id="projects">
+      <div class="container">
+      <h1 class="title title--purple">Projects</h1>
+      <p>I bring results.</p>
+      <p>My clients are proof.</p>
+      </div>
+      </section>
+
+      <section class="blog" id="blog">
+      <div class="container">
+      <div class="blog_left">
+      <h1 class="title title--orange">Blogs</h1>
+      <p>Latest Blogs</p>
+      </div>
+      <div class="blog_right">
+      <div class="article">
+      <article>
+      <time datetime="April 16, 2021">April 16, 2021</time>
+      <h1>Design tips for designers, that cover everything you need</h1>
+      </article>
+      <article>
+      <time datetime="April 16, 2021">April 16, 2021</time>
+      <h1>How to build rapport with your web design clients</h1>
+      </article>
+      <article>
+      <time datetime="April 16, 2021">April 16, 2021</time>
+      <h1>Top 6 free website mockup tools 2021</h1>
+      </article>
+      <article>
+      <time datetime="April 16, 2021">April 16, 2021</time>
+      <h1>Logo design trends to avoid in 2021</h1>
+      </article>
+      <article>
+      <time datetime="April 16, 2021">April 16, 2021</time>
+      <h1>22 best UI design tools</h1>
+      </article>
+      </div>
+      </div>
+      </div>
+      </section>
+
+      <section class="product_designer">
+      <div class="container">
+      <h1 class="title title--orange">Product Designer</h1>
+      <h2>That's me!</h2>
+      <p>Over the past 12 years, I've worked with a diverse range of clients, from startups to Fortune 500 companies. I love crafting interfaces that delight users and help businesses grow.</p>
+      <div class="pd_grid">
+      <div class="pd_grid_row">
+      <img src="img/pd_1.png" class="pd" />
+      <img src="img/pd_2.png" class="pd" />
+      </div>
+      <div class="pd_grid_column">
+      <img src="img/pd_3.png" class="pd" />
+      <img src="img/pd_4.png" class="pd" />
+      </div>
+      </div>
+      <div class="vector_grid">
+      <img src="img/�� Education.png" class="education" />
+      <img src="img/�� Work Experience.png" class="work_exp" />
+      </div>
+      </div>
+      </section>
+
+      <section class="testimonials">
+      <div class="container">
+      <h1 class="title title--blue">Testimonials</h1>
+      <p>Word on the street</p>
+      <div class="testie_grid">
+      <div class="ava_left">
+      <img src="img/avatar.png" class="testimonials_img" />
+      </div>
+      <div class="quote">
+      <blockquote>
+      <p class="quote_text">Jade helped us build a software so intuitive that it didn't need a walkthrough. He solved complex problems with brilliant design.</p>
+      </blockquote>
+      </div>
+      </div>
+      </div>
+      </section>
+
+      <section class="faq">
+      <div class="container">
+      <h1 class="title title--orange">FAQ</h1>
+      <p>Frequently asked questions</p>
+      </div>
+      </section>
+    </main>
+
+    <!-- Футер -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 Все права защищены</p>
+      </div>
+    </footer>
+
+    <!-- Подключение скриптов -->
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
