@@ -274,3 +274,88 @@ ul {
   justify-content: left;
   gap: 65px;
 }
+
+/*work & exp*/
+
+.experience-education {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Две колонки */
+  gap: 4rem; /* Отступ между ними */
+  padding: 2rem;
+}
+
+.education, .work-experience {
+  display: flex;
+  flex-direction: column;
+}
+
+.education h2, .work-experience h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.item {
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1rem;
+}
+
+.item h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.item p {
+  margin: 0.5rem 0;
+  color: #666;
+}
+
+.item span {
+  font-size: 0.9rem;
+  color: #999;
+}
+
+/*FAQ*/
+
+.faq {
+  background: #111;
+  color: #fff;
+  padding: 4rem 2rem;
+}
+
+.faq h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.faq-item {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.faq-question {
+  background: none;
+  border: none;
+  color: #fff;
+  width: 100%;
+  text-align: left;
+  padding: 1rem 0;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+}
+
+.faq-item.active .faq-answer {
+  max-height: 300px; /* или авто если хочешь через JS аккуратно */
+  padding: 1rem 0;
+}
