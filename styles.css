@@ -275,9 +275,12 @@ ul {
   gap: 65px;
 }
 
+/*blog*/
+
+
+
 /*work & exp*/
 
-.blog,
 .experience-education {
   display: grid;
   grid-template-columns: 1fr 1fr; /* Две колонки */
@@ -285,7 +288,8 @@ ul {
   padding: 2rem;
 }
 
-.education, .work-experience {
+.education, .work-experience,
+.blog_column, .blog_title {
   display: flex;
   flex-direction: column;
 }
@@ -295,7 +299,8 @@ ul {
   margin-bottom: 2rem;
 }
 
-.item {
+.item,
+.blog_item {
   margin-bottom: 2rem;
   border-bottom: 1px solid #ccc;
   padding-bottom: 1rem;
@@ -318,7 +323,8 @@ ul {
 
 /*FAQ*/
 
-.faq {
+.faq,
+.blog {
   background: #111;
   color: #fff;
   padding: 4rem 2rem;
