@@ -277,6 +277,7 @@ ul {
 
 /*work & exp*/
 
+.blog,
 .experience-education {
   display: grid;
   grid-template-columns: 1fr 1fr; /* Две колонки */
